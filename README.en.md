@@ -8,31 +8,11 @@ An Agent Skill for drafting and editing Chinese text, with attention to facts, q
 
 Use it for emails, product notes, reports, and academic paragraphs. It gives an assistant instructions for revising vague claims, awkward phrasing, and repetition while leaving already natural writing alone.
 
-## Quick start
-
-With the [Skills CLI](https://github.com/vercel-labs/skills):
-
-```bash
-npx skills add Chase-Chen1999/chinese-writing-skill --skill chinese-writing
-```
-
-On 2026-09-14, a Codex project-level copy installation was checked with Skills CLI 1.5.26 and `--agent codex --copy --yes`. All three installed skill files matched the source files. Model auto-activation was not tested.
+It works in tools that read `SKILL.md`, such as Claude Code and Codex. Other tools that support Agent Skills follow their own installation docs. The install command is under [Quick start](#quick-start).
 
 ## Three editing examples
 
 These are **fictional examples** from the repository, illustrating the intended editing behavior. They are not real product results or research findings. All numbers come from the respective source drafts.
-
-### Email: make the request clear
-
-**Before**
-
-> 为切实推动项目协同工作的高效开展，现将修订后的方案同步给您。烦请您于周四前审阅第二部分，并就预算安排提出宝贵意见。
-
-**After**
-
-> 修订后的方案发您了。烦请您在周四前看一下第二部分，并对预算安排提些意见。
-
-The request, review scope, deadline, and courtesy remain. No new promise is added.
 
 ### Product note: keep the evidence specific
 
@@ -46,6 +26,18 @@ The request, review scope, deadline, and courtesy remain. No new promise is adde
 
 The inflated claim is removed. The sample of 20 testers, median task time, and unavailable export feature remain.
 
+### Email: make the request clear
+
+**Before**
+
+> 为切实推动项目协同工作的高效开展，现将修订后的方案同步给您。烦请您于周四前审阅第二部分，并就预算安排提出宝贵意见。
+
+**After**
+
+> 修订后的方案发您了。烦请您在周四前看一下第二部分，并对预算安排提些意见。
+
+The request, review scope, deadline, and courtesy remain. No new promise is added.
+
 ### Academic paragraph: keep the limits of the finding
 
 **Before**
@@ -57,6 +49,16 @@ The inflated claim is removed. The sample of 20 testers, median task time, and u
 > 我们考察了企业采用该工具与处理时间的关系。估计系数为−0.08，标准误为0.06，未达到常用显著性水平。该结果尚不足以支持因果解释。
 
 The coefficient, standard error, lack of statistical significance, and causal limitation remain. See [more examples](skills/chinese-writing/references/examples.md) in Chinese.
+
+## Quick start
+
+With the [Skills CLI](https://github.com/vercel-labs/skills):
+
+```bash
+npx skills add Chase-Chen1999/chinese-writing-skill --skill chinese-writing
+```
+
+On 2026-09-14, a Codex project-level copy installation was checked with Skills CLI 1.5.26 and `--agent codex --copy --yes`. All three installed skill files matched the source files. Model auto-activation was not tested.
 
 ## Manual installation and prompt use
 

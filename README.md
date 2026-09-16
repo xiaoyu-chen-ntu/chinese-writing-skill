@@ -8,31 +8,11 @@
 
 适合邮件、产品说明、工作报告与学术段落。把原稿或要点交给助手，就能按同一套规则处理空泛表达、翻译腔和重复句式；已有的自然表达可以保留。
 
-## 快速开始
-
-使用[Skills CLI](https://github.com/vercel-labs/skills)：
-
-```bash
-npx skills add Chase-Chen1999/chinese-writing-skill --skill chinese-writing
-```
-
-2026-09-14已使用Skills CLI 1.5.26验证Codex项目级复制安装（`--agent codex --copy --yes`），安装的3个技能文件与源文件一致。此检查不包含模型自动触发效果。
+在读取SKILL.md的工具里使用，例如Claude Code与Codex；其他支持Agent Skills的工具按各自文档安装。安装命令见[快速开始](#快速开始)。
 
 ## 先看三个例子
 
 以下是仓库中的**虚构演示材料**，展示希望遵循的修改方式，不是真实产品业绩或研究结论。数字均来自各自原稿。
-
-### 邮件：说清请求，保留礼貌
-
-**原稿**
-
-> 为切实推动项目协同工作的高效开展，现将修订后的方案同步给您。烦请您于周四前审阅第二部分，并就预算安排提出宝贵意见。
-
-**改写**
-
-> 修订后的方案发您了。烦请您在周四前看一下第二部分，并对预算安排提些意见。
-
-保留了审阅范围、期限和请求，没有替作者增加后续承诺。
 
 ### 产品说明：让已有证据说话
 
@@ -46,6 +26,18 @@ npx skills add Chase-Chen1999/chinese-writing-skill --skill chinese-writing
 
 去掉夸大评价，保留20名内测用户、中位耗时和未上线的功能。
 
+### 邮件：说清请求，保留礼貌
+
+**原稿**
+
+> 为切实推动项目协同工作的高效开展，现将修订后的方案同步给您。烦请您于周四前审阅第二部分，并就预算安排提出宝贵意见。
+
+**改写**
+
+> 修订后的方案发您了。烦请您在周四前看一下第二部分，并对预算安排提些意见。
+
+保留了审阅范围、期限和请求，没有替作者增加后续承诺。
+
 ### 学术段落：写得简洁，保留解释边界
 
 **原稿**
@@ -57,6 +49,16 @@ npx skills add Chase-Chen1999/chinese-writing-skill --skill chinese-writing
 > 我们考察了企业采用该工具与处理时间的关系。估计系数为−0.08，标准误为0.06，未达到常用显著性水平。该结果尚不足以支持因果解释。
 
 保留数字、不显著结果和因果限制。更多场景见[文体与改写示例](skills/chinese-writing/references/examples.md)。
+
+## 快速开始
+
+使用[Skills CLI](https://github.com/vercel-labs/skills)：
+
+```bash
+npx skills add Chase-Chen1999/chinese-writing-skill --skill chinese-writing
+```
+
+2026-09-14已使用Skills CLI 1.5.26验证Codex项目级复制安装（`--agent codex --copy --yes`），安装的3个技能文件与源文件一致。此检查不包含模型自动触发效果。
 
 ## 手动安装与提示词试用
 
