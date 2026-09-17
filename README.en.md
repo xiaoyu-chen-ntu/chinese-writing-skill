@@ -55,7 +55,7 @@ The coefficient, standard error, lack of statistical significance, and causal li
 With the [Skills CLI](https://github.com/vercel-labs/skills):
 
 ```bash
-npx skills add Chase-Chen1999/chinese-writing-skill --skill chinese-writing
+npx skills add xiaoyu-chen-ntu/chinese-writing-skill --skill chinese-writing
 ```
 
 On 2026-09-14, a Codex project-level copy installation was checked with Skills CLI 1.5.26 and `--agent codex --copy --yes`. All three installed skill files matched the source files. Model auto-activation was not tested.
@@ -109,7 +109,7 @@ One round was run in an independent assistant session and manually reviewed by t
 
 ## Give feedback
 
-[Open an issue](https://github.com/Chase-Chen1999/chinese-writing-skill/issues/new) with a draft, the actual output, what should have been preserved, and the tool and model used. Remove private information before posting publicly.
+[Open an issue](https://github.com/xiaoyu-chen-ntu/chinese-writing-skill/issues/new) with a draft, the actual output, what should have been preserved, and the tool and model used. Remove private information before posting publicly.
 
 ## Related projects and provenance
 

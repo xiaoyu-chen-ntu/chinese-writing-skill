@@ -55,7 +55,7 @@
 使用[Skills CLI](https://github.com/vercel-labs/skills)：
 
 ```bash
-npx skills add Chase-Chen1999/chinese-writing-skill --skill chinese-writing
+npx skills add xiaoyu-chen-ntu/chinese-writing-skill --skill chinese-writing
 ```
 
 2026-09-14已使用Skills CLI 1.5.26验证Codex项目级复制安装（`--agent codex --copy --yes`），安装的3个技能文件与源文件一致。此检查不包含模型自动触发效果。
@@ -109,7 +109,7 @@ npx skills add Chase-Chen1999/chinese-writing-skill --skill chinese-writing
 
 ## 帮忙改进
 
-遇到改坏的句子，欢迎[提交反馈](https://github.com/Chase-Chen1999/chinese-writing-skill/issues/new)。附上原稿、实际输出、希望保留的表达，以及所用工具和模型，便于复现。公开提交前请移除私人信息。
+遇到改坏的句子，欢迎[提交反馈](https://github.com/xiaoyu-chen-ntu/chinese-writing-skill/issues/new)。附上原稿、实际输出、希望保留的表达，以及所用工具和模型，便于复现。公开提交前请移除私人信息。
 
 ## 相关项目与来源
 

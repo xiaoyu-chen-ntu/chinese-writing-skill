@@ -52,7 +52,7 @@
 2026-09-14，使用Skills CLI 1.5.26在隔离临时项目中完成以下安装：
 
 ```bash
-npx --yes skills@1.5.26 add Chase-Chen1999/chinese-writing-skill --skill chinese-writing --agent codex --copy --yes
+npx --yes skills@1.5.26 add xiaoyu-chen-ntu/chinese-writing-skill --skill chinese-writing --agent codex --copy --yes
 ```
 
 发现检查识别到唯一技能chinese-writing。安装后的SKILL.md、agents/openai.yaml和references/examples.md与源文件逐字节一致。测试关闭匿名遥测，未改动用户全局技能目录。这验证了Codex项目级复制安装，不包含模型自动触发效果或其他产品中的使用表现。
